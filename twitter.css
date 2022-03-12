@@ -1,0 +1,106 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: max-content;
+
+    background-color: #000000;
+    color: #FFFFFF; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 50vw;
+    border: 1px solid #2D2D2D;
+}
+
+.title-container {
+    padding: 16px;
+    border-bottom: 1px solid #2D2D2D;
+}
+
+.title {
+    margin: 0;
+}
+
+.material-icons-outlined {
+    color: #1BA2F1;
+}
+
+.add-tweet-container {
+    padding: 16px;
+
+    display: flex;
+    
+    gap: 16px;
+}
+
+.profile-picture-container {
+    width: max-content;
+}
+
+.profile-picture-icon {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.add-tweet {
+    width: 90%;
+}
+
+.tweet-input {
+    width: 100%;
+    background-color: transparent;
+    color: #FFFFFF;
+
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+
+    border: none;
+
+    resize: none;
+}
+
+.tweet-input:focus {
+    outline: none; 
+}
+
+.tweet-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media-options-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.media-option-icon {
+    cursor: pointer;
+}
+
+.tweet-button {
+    background-color: #1BA2F1;
+    color: #FFFFFF;
+
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+
+    padding: 12px 32px;
+
+    border: none;
+    border-radius: 50px;
+
+    cursor: pointer;
+}
+

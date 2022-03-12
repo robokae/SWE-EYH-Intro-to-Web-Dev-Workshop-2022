@@ -7,7 +7,12 @@
     <title>Twitter</title>
 
     <!-- Google Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="twitter.css">
@@ -16,21 +21,21 @@
 <body>
     <div class="container">
         <div class="title-container">
-            <h3>Home</h3>
+            <h3 class="title">Home</h3>
         </div>
         <div class="add-tweet-container">
             <div class="profile-picture-container">
-                <span class="material-icons-outlined">account_circle</span>
+                <span class="profile-picture-icon material-icons-outlined">account_circle</span>
             </div>
             <form class="add-tweet">
                 <textarea class="tweet-input" placeholder="What's happening?"></textarea>
                 <div class="tweet-buttons-container">
                     <div class="media-options-container">
-                        <span class="material-icons">image</span>
-                        <span class="material-icons">gif_box</span>
-                        <span class="material-icons">poll</span>
-                        <span class="material-icons">emoji_emotions</span>
-                        <span class="material-icons">calendar_today</span>
+                        <span class="media-option-icon material-icons-outlined">image</span>
+                        <span class="media-option-icon material-icons-outlined">gif_box</span>
+                        <span class="media-option-icon material-icons-outlined">poll</span>
+                        <span class="media-option-icon material-icons-outlined">emoji_emotions</span>
+                        <span class="media-option-icon material-icons-outlined">calendar_today</span>
                     </div>
                     <button class="tweet-button" type="submit">Tweet</button>
                 </div>
